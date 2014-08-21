@@ -46,37 +46,13 @@ ul.pagination li {
     height: 1.33333rem;
     margin-left: 0.27778rem;
 }
-ul.pagination li a, ul.pagination li button {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
-    border-radius: 3px;
-    color: #999;
-    display: block;
-    font-size: 1em;
-    font-weight: normal;
-    line-height: inherit;
-    padding: 0.05556rem 0.55556rem;
-    transition: background-color 300ms ease-out 0s;
-}
-ul.pagination li:hover a, ul.pagination li a:focus, ul.pagination li:hover button, ul.pagination li button:focus {
-    background: none repeat scroll 0 0 #e6e6e6;
-}
-ul.pagination li.unavailable a, ul.pagination li.unavailable button {
-    color: #999;
-    cursor: default;
-}
-ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus, ul.pagination li.unavailable:hover button, ul.pagination li.unavailable button:focus {
-    background: none repeat scroll 0 0 transparent;
-}
-ul.pagination li.current a, ul.pagination li.current button {
-    background: none repeat scroll 0 0 #008cba;
-    color: #fff;
-    cursor: default;
-    font-weight: bold;
-}
 ul.pagination li.current a:hover, ul.pagination li.current a:focus, ul.pagination li.current button:hover, ul.pagination li.current button:focus,ul.pagination span.current {
    background: none repeat scroll 0 0 #008cba;
-   border: 5px solid #008cba;
+   border: 1px solid #008cba;
    color: #fff;
+   padding: 0.05556rem 0.55556rem;
+   border-radius: 3px
+}
 }
 ul.pagination li {
     display: block;
