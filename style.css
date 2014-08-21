@@ -1,0 +1,91 @@
+/*
+Theme Name: Monster5
+Theme URI: http://zurb.theazs.com
+Author: Md.Atiquzzaman Soikat
+Author URI: http://theazs.com
+Description: A WordPress theme created using foundation 5 css framework.
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: monster5
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.navigatoon {
+    background: none repeat scroll 0 0 #333;
+     margin-bottom: 25px;
+}
+.featured-image img{
+  max-width: 100%;
+}
+
+@media screen and (max-width: 600px){
+.admin-bar .top-bar {
+  margin-top: 40px;
+}
+html.indexeddb{
+  margin-top:0 !important;
+}
+}
+.reveal-modal {
+    left: 0;
+    margin: 0 auto;
+    max-width: 55.5556rem;
+    right: 0;
+    width: 80%;
+}
+
+ul.pagination {
+    display: block;
+    margin-left: -0.27778rem;
+    min-height: 1.33333rem;
+}
+ul.pagination li {
+    color: #222;
+    font-size: 0.77778rem;
+    height: 1.33333rem;
+    margin-left: 0.27778rem;
+}
+ul.pagination li a, ul.pagination li button {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    color: #999;
+    display: block;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: inherit;
+    padding: 0.05556rem 0.55556rem;
+    transition: background-color 300ms ease-out 0s;
+}
+ul.pagination li:hover a, ul.pagination li a:focus, ul.pagination li:hover button, ul.pagination li button:focus {
+    background: none repeat scroll 0 0 #e6e6e6;
+}
+ul.pagination li.unavailable a, ul.pagination li.unavailable button {
+    color: #999;
+    cursor: default;
+}
+ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus, ul.pagination li.unavailable:hover button, ul.pagination li.unavailable button:focus {
+    background: none repeat scroll 0 0 transparent;
+}
+ul.pagination li.current a, ul.pagination li.current button {
+    background: none repeat scroll 0 0 #008cba;
+    color: #fff;
+    cursor: default;
+    font-weight: bold;
+}
+ul.pagination li.current a:hover, ul.pagination li.current a:focus, ul.pagination li.current button:hover, ul.pagination li.current button:focus,ul.pagination span.current {
+   background: none repeat scroll 0 0 #008cba;
+   border: 5px solid #008cba;
+   color: #fff;
+}
+ul.pagination li {
+    display: block;
+    float: left;
+}
+.pagination-centered {
+    text-align: center;
+}
+.pagination-centered ul.pagination li {
+    display: inline-block;
+    float: none;
+}
