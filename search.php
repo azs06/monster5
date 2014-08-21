@@ -7,25 +7,19 @@
       <article>
 
         <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-        <h6>Written by <?php the_author(); ?> on <?php echo the_time('l,F jS,Y'); ?>
-        in <?php the_category(', '); ?>
-        <a href="<?php comments_link(); ?>"><?php comments_number(); ?></a>
-        </h6>
 
       <?php the_excerpt(); ?>
-      <a href="<?php the_permalink(); ?>" class="button tiny"><b>Read More</b></a>
       </article>
 
       <hr/>
     <?php endwhile; endif; ?>
-
-<?php
-zurb_pagination();
-?>
-
+<div class="navigation">
+<div class="alignleft"><?php next_posts_link('&laquo; Previous') ?></div>
+<div class="alignright"><?php previous_posts_link('Next &raquo;') ?></div>
+</div>
     </div>
 
-  <?php get_sidebar('blog'); ?>
+  <?php get_sidebar(); ?>
 
   </div>
 

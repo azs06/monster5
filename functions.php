@@ -18,6 +18,7 @@ add_action('wp_enqueue_scripts','theme_js');
 
 add_theme_support('menus');
 add_theme_support( 'post-thumbnails' );
+add_theme_support( 'html5', array( 'search-form' ) );
 function register_theme_menus(){
   register_nav_menus(
   array(
@@ -69,6 +70,6 @@ global $wp_query;
 									echo "<li>$page</li>";
 					}
 				echo '</ul>';
-			}	
+			}
 }
 ?>
